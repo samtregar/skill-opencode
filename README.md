@@ -2,7 +2,7 @@
 
 A Claude Code skill that sends reviews and other prompts to any model [opencode](https://opencode.ai) can reach, then shows you that model's response verbatim alongside Claude's own assessment.
 
-Ask Claude for "a review via opencode", "have Kimi review the last commit", or "a second opinion from Gemini", or type `/opencode`.
+Ask Claude for "a review via opencode", "have Kimi review the last commit", or "a second opinion from Gemini". You can also type `/skill-opencode:opencode` (plugin install) or `/opencode` (standalone install).
 
 ## Why
 
