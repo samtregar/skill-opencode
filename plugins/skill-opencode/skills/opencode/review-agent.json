@@ -1,0 +1,43 @@
+{
+  "agent": {
+    "review": {
+      "description": "Read-only reviewer driven by Claude Code: no edits, no subagents, no MCP or Code Mode, project files only, shell limited to read-only git",
+      "mode": "primary",
+      "permission": {
+        "edit": "deny",
+        "task": "deny",
+        "question": "deny",
+        "execute": "deny",
+        "opencode.*": "deny",
+        "external_directory": "deny",
+        "bash": {
+          "*": "ask",
+          "pwd": "allow",
+          "git diff*": "allow",
+          "git log*": "allow",
+          "git show*": "allow",
+          "git status*": "allow",
+          "git blame*": "allow",
+          "git grep*": "allow",
+          "git ls-files*": "allow",
+          "git ls-tree*": "allow",
+          "git cat-file*": "allow",
+          "git rev-parse*": "allow",
+          "git rev-list*": "allow",
+          "git merge-base*": "allow",
+          "git describe*": "allow",
+          "git shortlog*": "allow",
+          "*>*": "ask",
+          "* /*": "ask",
+          "* ~*": "ask",
+          "*../*": "ask",
+          "*--output*": "ask",
+          "*--no-index*": "ask",
+          "*--contents*": "ask",
+          "git grep*-O*": "ask",
+          "git grep*--open-files-in-pager*": "ask"
+        }
+      }
+    }
+  }
+}

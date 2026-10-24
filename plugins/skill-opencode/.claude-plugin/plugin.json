@@ -1,0 +1,21 @@
+{
+  "name": "skill-opencode",
+  "description": "Claude Code skill to send reviews and other prompts to any model through opencode, with model selection built for very large catalogs such as OpenRouter's",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sam Tregar",
+    "url": "https://github.com/samtregar"
+  },
+  "homepage": "https://github.com/samtregar/skill-opencode",
+  "repository": "https://github.com/samtregar/skill-opencode",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "skill",
+    "opencode",
+    "openrouter",
+    "code-review",
+    "second-opinion"
+  ]
+}

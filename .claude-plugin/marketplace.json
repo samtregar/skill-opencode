@@ -1,0 +1,25 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skill-opencode",
+  "description": "Marketplace for the skill-opencode plugin, enabling Claude Code to get reviews and second opinions from any model through opencode",
+  "owner": {
+    "name": "samtregar",
+    "url": "https://github.com/samtregar"
+  },
+  "plugins": [
+    {
+      "name": "skill-opencode",
+      "source": "./plugins/skill-opencode",
+      "description": "Send reviews and other prompts to any model opencode offers, including OpenRouter's catalog, and show the response verbatim",
+      "version": "1.0.0",
+      "category": "development",
+      "homepage": "https://github.com/samtregar/skill-opencode",
+      "tags": [
+        "skill",
+        "opencode",
+        "openrouter",
+        "code-review"
+      ]
+    }
+  ]
+}
